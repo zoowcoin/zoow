@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ZOOW Core
+Comment=ZOOW P2P Cryptocurrency
+Comment[de]=Verbinde mit dem ZOOW peer-to-peer Netzwerk
+Comment[fr]=ZOOW, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ZOOW, eşten eşe kriptografik sanal para birimi
+Exec=zoow-qt %u
+Terminal=false
+Type=Application
+Icon=zoow128
+MimeType=x-scheme-handler/zoow;
+Categories=Office;Finance;

@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[zoow.qt-translation-012x]
+file_filter = src/qt/locale/zoow_<lang>.ts
+source_file = src/qt/locale/zoow_en.ts
+source_lang = en

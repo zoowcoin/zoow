@@ -1,0 +1,22 @@
+[Unit]
+Description=ZOOW's distributed currency daemon
+After=network.target
+
+[Service]
+User=zoowcore
+Group=zoowcore
+
+Type=forking
+PIDFile=/var/lib/zoowd/zoowd.pid
+ExecStart=/usr/bin/zoowd -daemon -pid=/var/lib/zoowd/zoowd.pid \
+-conf=/etc/zoowcore/zoow.conf -datadir=/var/lib/zoowd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

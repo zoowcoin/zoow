@@ -1,0 +1,6 @@
+usr/local/bin/zoow-qt usr/bin
+share/pixmaps/zoow32.xpm usr/share/pixmaps
+share/pixmaps/zoow16.xpm usr/share/pixmaps
+share/pixmaps/zoow128.png usr/share/pixmaps
+debian/zoow-qt.desktop usr/share/applications
+debian/zoow-qt.protocol usr/share/kde4/services/
